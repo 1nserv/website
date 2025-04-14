@@ -5,9 +5,6 @@ import AboutView from '@/views/AboutView.vue';
 import RepublicView from '@/views/RepublicView.vue';
 import NotFound from '@/views/NotFound.vue';
 
-import DeveloperHomeView from '@/views/dev/DeveloperHomeView.vue';
-import DocPage from '@/views/dev/Documentation.vue';
-
 import LegalPage from '@/views/laws/LegalDocument.vue';
 import LawsIndexView from '@/views/laws/IndexView.vue';
 
@@ -19,10 +16,6 @@ const routes: RouteRecordRaw[] = [
 	{
 		path: '/about',
 		component: AboutView
-	},
-	{
-		path: '/dev',
-		component: DeveloperHomeView
 	},
 	{
 		path: '/institutions',
@@ -38,11 +31,6 @@ const routes: RouteRecordRaw[] = [
 		props: true
 	},
 	{
-		path: '/dev/nsa/:name',
-		component: DocPage,
-		props: true
-	},
-    {
 		path: '/:pathMatch(.*)*',
 		name: 'NotFound',
 		component: NotFound

@@ -2,16 +2,15 @@
 
 :root {
 	--primary: #ffb800;
-	--secondary: #3257ec;
+	--secondary: #1f2f5c;
 	--tertiary: #26ce85;
-	
+
 	--text-color: #151b22;
 	--secondary-text-color: #ffffff;
 
 	--background-page: #f4f5f7;
 	--background-primary: var(--primary);
-	--background-secondary: var(--secondary)
-	--background-tertiary: var(--tertiary)
+	--background-secondary: var(--secondary) --background-tertiary: var(--tertiary)
 }
 
 @media only screen and (prefers-color-scheme: dark) {
@@ -49,7 +48,7 @@ body {
 #md pre {
 	display: block;
 	font-weight: 400;
-	padding: 2px 8px; 
+	padding: 2px 8px;
 	margin: 16px 0;
 }
 
@@ -97,7 +96,7 @@ body {
 	margin: 0;
 }
 
-#md > li > ul > li {
+#md>li>ul>li {
 	text-indent: 32px;
 }
 
@@ -123,7 +122,7 @@ body {
 	background-color: #cfcfcf;
 }
 
-#md > blockquote {
+#md>blockquote {
 	background-color: #cfcfcf50;
 	border-left: 4px solid #cfcfcfcf;
 }

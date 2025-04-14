@@ -3,7 +3,6 @@
 </script>
 <template>
 	<Navbar />
-	<div class="bg-orange-500/15 text-orange-500 text-center px-8 pb-4 pt-20 md:px-64">Les textes sont encore en cours de rédaction, certaines erreurs peuvent apparaître.</div>
 	<div id="md" v-html="content" class="p-8 md:px-64"></div>
 </template>
 <script lang="ts">

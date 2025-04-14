@@ -2,7 +2,7 @@
 
 ## Préambule
 
-La présente Charte de Confidentialité a pour but de garantir la protection des données personnelles des membres du serveur Discord Nation Serv. Elle définit les principes et les mesures mis en place pour assurer la confidentialité, la sécurité et l'usage responsable des données collectées. En utilisant ce serveur, les membres acceptent les conditions énoncées dans cette charte.
+La présente Charte de Confidentialité a pour but de garantir la protection des données personnelles des membres de la République Nationale. Elle définit les principes et les mesures mis en place pour assurer la confidentialité, la sécurité et l'usage responsable des données collectées. En utilisant ce serveur, les membres acceptent les conditions énoncées dans cette charte.
 
 > L'administration déplore toute responsabilité en cas de mauvaise utilisation de vos données par un écosystème non agréé.
 
