@@ -8,6 +8,8 @@ import NotFound from '@/views/NotFound.vue';
 import LegalPage from '@/views/laws/LegalDocument.vue';
 import LawsIndexView from '@/views/laws/IndexView.vue';
 
+import TutorialVue from '@/views/howto/TutorialVue.vue';
+
 const routes: RouteRecordRaw[] = [
 	{
 		path: '/',
@@ -28,6 +30,11 @@ const routes: RouteRecordRaw[] = [
 	{
 		path: '/lois/:name',
 		component: LegalPage,
+		props: true
+	},
+	{
+		path: '/howto/:name',
+		component: TutorialVue,
 		props: true
 	},
 	{
